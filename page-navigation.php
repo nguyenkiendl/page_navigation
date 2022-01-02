@@ -4,13 +4,15 @@
  * @version 1.0.0
  */
 /**
-Plugin Name: Page Navigation
-Plugin URI: https://nguyenkiendl.com
-Description: Plugin page navigation
-Author: Nguyenkiendl
-Vesion: 1.0.0
-Author URI: https://nguyenkiendl.com
-*/
+ * Plugin Name:     Page Navigation
+ * Plugin Slug:     page-navigation
+ * Plugin URI:      https://github.com/nguyenkiendl/page_navigation
+ * Description:     pagination plugin or see more with auto ajax
+ * Author:          nguyenkiendl
+ * Author URI:      https://nguyenkiendl.com
+ * Version:         1.0.0
+ * License:         GPLv2 or later
+ */
 
 // Make sure we don't expose any info if called directly
 if ( !function_exists( 'add_action' ) ) {
